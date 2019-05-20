@@ -1,0 +1,43 @@
+// Home Content
+
+.home {
+  width: 100%;
+
+  @media @phone {
+    margin: auto;
+    width: 98%;
+  }
+
+  .first-section {
+    background-image: url("../images/s1.jpg");
+    background-position: center;
+    height: 100vh;
+
+    .slide-in-fwd-left {
+      margin: 160px 0 0 280px;
+    }
+
+    .slide-in-fwd-right {
+      margin: 0 0 0 630px;
+    }
+  }
+
+  .second-section {
+    background-color: @main-blue;
+    height: 100vh;
+
+    .three-column {
+      display: flex;
+      justify-content: space-evenly;
+      padding: 200px 0;
+
+      .main-block {
+        width: 300px;
+      }
+    }
+  }
+  .third-section {
+    background: url("../images/s1.jpg");
+    height: 100vh;
+  }
+}

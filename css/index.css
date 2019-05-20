@@ -147,6 +147,7 @@ h5 {
 }
 h1 {
   font-size: 10rem;
+  font-weight: bolder;
 }
 h2 {
   font-size: 3.2rem;
@@ -215,6 +216,13 @@ footer {
 .home .first-section .slide-in-fwd-right {
   margin: 0 0 0 630px;
 }
+.home .icon {
+  margin: 0 80px 30px 80px;
+  width: 120px;
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 20px;
+}
 .home .second-section {
   background-color: #6fc7f0;
   height: 100vh;
@@ -222,9 +230,12 @@ footer {
 .home .second-section .three-column {
   display: flex;
   justify-content: space-evenly;
-  padding: 200px 0;
+  padding: 130px 0 200px 0;
 }
 .home .second-section .three-column .main-block {
+  display: block;
+}
+.home .second-section .three-column .text-block {
   width: 300px;
 }
 .home .third-section {
